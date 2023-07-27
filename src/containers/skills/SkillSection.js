@@ -1,26 +1,25 @@
 import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import MobileDev from "../../assests/images/mobile-development.png";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+  if (props.fileName === "MobileDev")
+    return <img src={MobileDev} alt="Mobile Development" />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  else return <FullStackImg theme={props.theme} />;
 }
 
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
+    const skills = this.props.skills;
     return (
       <div>
         {skills.data.map((skill) => {

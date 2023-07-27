@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SwapnilShah",
   nickname: "swapnilshah5889",
   subTitle:
-    "Computer Science Graduate student with 3+ years of experience in software development including project management, leading team, and agile development of software. Ability to build user-centric web applications, mobile applications, and more designed to scale leveraging my problem-solving skills. A fast learner with strong time management, multi-tasking, and troubleshooting skills with an analytical mindset.",
+    "Computer Science Graduate student with 3+ years of software development experience, adept at leading teams in agile environments. Skilled in building user-centric web and mobile applications designed to scale. Fast learner with strong time management, multi-tasking, and troubleshooting abilities, and a full stack development expertise in React, TypeScript, JavaScript, Node.js, Express, Python, Flask, HTML, CSS, and Bootstrap.",
   resumeLink:
     "https://drive.google.com/file/d/1v8UTTl64Yk0mX0h-ufsYI015-glwF1v5/view?usp=sharing",
   portfolio_repository: "https://github.com/swapnilshah5889",
@@ -78,185 +78,311 @@ const socialMediaLinks = [
   },
 ];
 
-const skills = {
-  data: [
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+const skillList = [
+  {
+    title: "What I do ?",
+    data: [
+      {
+        title: "Full Stack Development",
+        fileName: "FullStackImg",
+        skills: [
+          "⚡ Proficient in building interactive and responsive web applications using React, TypeScript, JavaScript, HTML, CSS, and Bootstrap for a seamless user experience.",
+          "⚡ Experienced in developing robust back-end systems with Node.js, Express, Python, and Flask to handle data and API integration.",
+          "⚡ Skilled in designing and implementing full-stack solutions, utilizing various databases and cloud platforms, while prioritizing user-friendly and visually appealing interfaces.",
+        ],
+        softwareSkills: [
+          {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "simple-icons:javascript",
+            style: {
+              backgroundColor: "#000000",
+              color: "#F7DF1E",
+            },
           },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
+          {
+            skillName: "ReactJS",
+            fontAwesomeClassname: "simple-icons:react",
+            style: {
+              color: "#61DAFB",
+            },
           },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "logos:typescript-icon",
-          style: {
-            color: "#CB3837",
+          {
+            skillName: "TypeScript",
+            fontAwesomeClassname: "logos:typescript-icon",
+            style: {
+              color: "#CB3837",
+            },
           },
-        },
-        {
-          skillName: "ExpressJS",
-          fontAwesomeClassname: "skill-icons:expressjs-dark",
-          style: {
-            color: "#CB3837",
+          {
+            skillName: "ExpressJS",
+            fontAwesomeClassname: "skill-icons:expressjs-dark",
+            style: {
+              color: "#CB3837",
+            },
           },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "logos:nodejs",
-          style: {
-            color: "#CB3837",
+          {
+            skillName: "NodeJS",
+            fontAwesomeClassname: "logos:nodejs",
+            style: {
+              color: "#CB3837",
+            },
           },
-        },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "logos:flask",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "Flask",
+            fontAwesomeClassname: "logos:flask",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "skill-icons:php-dark",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "PHP",
+            fontAwesomeClassname: "skill-icons:php-dark",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "skill-icons:redux",
-          style: {
-            color: "#2C8EBB",
+          {
+            skillName: "Redux",
+            fontAwesomeClassname: "skill-icons:redux",
+            style: {
+              color: "#2C8EBB",
+            },
           },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "logos:jenkins",
-          style: {
-            color: "#2C8EBB",
+          {
+            skillName: "Jenkins",
+            fontAwesomeClassname: "logos:jenkins",
+            style: {
+              color: "#2C8EBB",
+            },
           },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
+          {
+            skillName: "MySQL",
+            fontAwesomeClassname: "logos:mysql",
+            style: {
+              color: "#4285F4",
+            },
           },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
+
+          {
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
           },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#47A248",
+            },
           },
-        },
-      ],
-    },
-    {
-      title: "Mobile Application Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "devicon:android",
-          style: {
-            color: "#E34F26",
+          {
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
+            style: {
+              color: "#E34F26",
+            },
           },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "devicon:java-wordmark",
-          style: {
-            color: "#1572B6",
+          {
+            skillName: "CSS3",
+            fontAwesomeClassname: "fa-css3",
+            style: {
+              color: "#1572B6",
+            },
           },
-        },
-        {
-          skillName: "Gradle",
-          fontAwesomeClassname: "skill-icons:gradle-dark",
-          style: {
-            color: "#1572B6",
+        ],
+      },
+      {
+        title: "Mobile Application Development",
+        fileName: "MobileDev",
+        skills: [
+          "⚡ Proven track record of delivering high-quality apps on time and within budget, with a keen eye for detail and a focus on meeting user requirements.",
+          "⚡ Extensive experience in integrating APIs, third-party libraries, and various SDKs to enhance app functionality and performance like Agora for video conferencing, Google Maps SDK, RazorPay SDK to manage payments and more.",
+          "⚡ Expertise in Java programming language, utilizing their full potential to build efficient and robust Android applications. Strong understanding of the Android ecosystem, including the latest design guidelines, platform capabilities, and best practices for optimal app performance and user engagement.",
+        ],
+        softwareSkills: [
+          {
+            skillName: "Android",
+            fontAwesomeClassname: "devicon:android",
+            style: {
+              color: "#E34F26",
+            },
           },
-        },
-        {
-          skillName: "XML",
-          fontAwesomeClassname: "mdi:file-xml-box",
-          style: {
-            color: "#1572B6",
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "devicon:java-wordmark",
+            style: {
+              color: "#1572B6",
+            },
           },
-        },
-      ],
-    },
-    {
-      title: "Database Management",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "logos:mysql",
-          style: {
-            color: "#4285F4",
+          {
+            skillName: "Gradle",
+            fontAwesomeClassname: "skill-icons:gradle-dark",
+            style: {
+              color: "#1572B6",
+            },
           },
-        },
-        {
-          skillName: "SQLite",
-          fontAwesomeClassname: "skill-icons:sqlite",
-          style: {
-            color: "#FF9900",
+          {
+            skillName: "XML",
+            fontAwesomeClassname: "mdi:file-xml-box",
+            style: {
+              color: "#1572B6",
+            },
           },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
+          {
+            skillName: "SQLite",
+            fontAwesomeClassname: "skill-icons:sqlite",
+            style: {
+              color: "#FF9900",
+            },
           },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
+          {
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
           },
-        },
-      ],
-    },
-  ],
-};
+        ],
+      },
+    ],
+  },
+  {
+    title: "Technical Skills & Frameworks",
+    data: [
+      {
+        title: "Proficient Languages",
+        fileName: "FullStackImg",
+        skills: [],
+        softwareSkills: [
+          {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "simple-icons:javascript",
+            style: {
+              backgroundColor: "#000000",
+              color: "#F7DF1E",
+            },
+          },
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "devicon:java-wordmark",
+            style: {
+              color: "#61DAFB",
+            },
+          },
+          {
+            skillName: "TypeScript",
+            fontAwesomeClassname: "logos:typescript-icon",
+            style: {
+              color: "#CB3837",
+            },
+          },
+          {
+            skillName: "Python",
+            fontAwesomeClassname: "logos:python",
+            style: {
+              color: "#CB3837",
+            },
+          },
+          {
+            skillName: "C#",
+            fontAwesomeClassname: "logos:c-sharp",
+            style: {
+              color: "#CB3837",
+            },
+          },
+          {
+            skillName: "PHP",
+            fontAwesomeClassname: "skill-icons:php-dark",
+            style: {
+              color: "#CC6699",
+            },
+          },
+        ],
+      },
+      {
+        title: "Mobile Application Development",
+        fileName: "MobileDev",
+        skills: [
+          "⚡ Building responsive website front end using React-Redux",
+          "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+          "⚡ Creating application backend in Node, Express & Flask",
+        ],
+        softwareSkills: [
+          {
+            skillName: "Android",
+            fontAwesomeClassname: "devicon:android",
+            style: {
+              color: "#E34F26",
+            },
+          },
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "devicon:java-wordmark",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "Gradle",
+            fontAwesomeClassname: "skill-icons:gradle-dark",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "XML",
+            fontAwesomeClassname: "mdi:file-xml-box",
+            style: {
+              color: "#1572B6",
+            },
+          },
+        ],
+      },
+      {
+        title: "Database Management",
+        fileName: "CloudInfraImg",
+        skills: [
+          "⚡ Experience working on multiple cloud platforms",
+          "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+          "⚡ Deploying deep learning models on cloud to use on mobile devices",
+          "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        ],
+        softwareSkills: [
+          {
+            skillName: "MySQL",
+            fontAwesomeClassname: "logos:mysql",
+            style: {
+              color: "#4285F4",
+            },
+          },
+          {
+            skillName: "SQLite",
+            fontAwesomeClassname: "skill-icons:sqlite",
+            style: {
+              color: "#FF9900",
+            },
+          },
+          {
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
+          },
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#47A248",
+            },
+          },
+        ],
+      },
+    ],
+  },
+];
 
 // Education Page
 const competitiveSites = {
@@ -285,13 +411,13 @@ const degrees = {
     {
       title: "Dharmsinh Desai Institute of Technology",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "dharmish-college-logo.jpe",
-      alt_name: "IIITDM Kurnool",
+      logo_path: "dharmish-college-logo.png",
+      alt_name: "DDIT",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Built full stack projects during the coursework in ASP.NET like Medigo - Doctor Appointment booking application and a complete E-Commerce website",
-        "⚡ Did an internship at a leading IT service company where I contributed to development of a full stack android application which was a food catering application. I was a part of the designing process, API building and database management and the android application development.",
+        "⚡ Proficient in fundamental software engineering subjects, including Data Structures, Algorithms, Database Management Systems, Operating Systems, Computer Architecture, and Artificial Intelligence.",
+        "⚡  Developed full stack projects during coursework, showcasing expertise in ASP.NET. Notable projects include 'Medigo' - a Doctor Appointment booking application, and a comprehensive E-Commerce website.",
+        "⚡ Gained hands-on experience through an internship at a leading IT service company. Contributed to the development of a full stack Android application focused on food catering. Involved in the design process, API building, database management, and Android application development.",
       ],
       website_link: "https://www.ddu.ac.in/",
     },
@@ -302,8 +428,9 @@ const degrees = {
       alt_name: "New Jersey Institute of Technology",
       duration: "2022 - 2024",
       descriptions: [
-        "⚡ Maintained an overall of GPA of 3.75, scoring Grade A in all the core computer science subjects, like Operating Systems, Database Management, Data Structures and Algorithms, Advanced Database System Design.",
-        "⚡ Apart from computer science subjects, I have also enrolled for subjects like Cloud Computing, System Design, Network Management and Security.",
+        "⚡ Maintained an exceptional GPA of 3.75, achieving Grade A in all core computer science subjects, including Operating Systems, Database Management, Data Structures and Algorithms, and Advanced Database System Design.",
+        "⚡ Expanded my knowledge beyond computer science by enrolling in additional subjects such as Cloud Computing, System Design, Network Management, and Security.",
+        "⚡ Utilized online platforms for self-learning, such as MOOCs (Massive Open Online Courses), to gain expertise in emerging technologies like React and Next.js, as well as important software development concepts like low-level design and high-level design of applications. This comprehensive learning approach ensures up-to-date knowledge and proficiency in both the latest technologies and the essential architectural principles of software development.",
       ],
       website_link: "https://www.njit.edu/",
     },
@@ -426,9 +553,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "During my work experience and internship, I have thrived as a software developer, specializing in building full stack, user-centric web applications. With a strong foundation in software engineering and a passion for problem-solving, I have contributed to the development of innovative and intuitive applications that prioritize user experience. Through my expertise in various front-end and back-end technologies, coupled with an analytical mindset, I have successfully delivered projects that are not only robust and scalable but also tailored to meet the unique needs of the end-users.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -436,37 +563,26 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Software Developer",
+          company: "Fluvina Technologies Pvt. Ltd.",
+          company_url: "http://www.fluvina.com/",
+          logo_path: "fluvina-technologies.jpeg",
+          duration: "December 2019 - August 2022",
+          location: "Ahmedabad, Gujarat, India",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "During my tenure at Fluvina Technologies, a dynamic product-based startup, I gained valuable insights into an evolving company and led multiple end-to-end projects as a software developer. Notable achievements include spearheading the development of the ZeroSugar mobile app for diabetic patients, revamping the user flow of the Mobihealth suite, and conducting a machine learning project for health risk prediction. With expertise in software development, project leadership, and problem-solving, I am well-prepared to excel in SDE roles and eager to contribute to organizational success.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
           title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          company: "Techmicra",
+          company_url: "https://techmicra.co.in/",
+          logo_path: "techmicra.jpeg",
+          duration: "May 2019 - November 2019",
+          location: "Ahmedabad, Gujarat, India",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "As an Android developer with full-stack responsibilities, I planned and developed complete applications, including database structure, frontend, backend in Android, and API structure. Utilizing Android Studio, I built Android applications with Java for the backend and XML for the frontend. Additionally, I created Restful APIs using PHP and managed databases in MySQL. I excelled in debugging applications and effectively coordinated tasks with other teams to ensure seamless application performance.",
+          color: "#9b1578",
         },
       ],
     },
@@ -474,99 +590,15 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Android Developer",
+          company: "Techmicra",
+          company_url: "https://techmicra.co.in/",
+          logo_path: "techmicra.jpeg",
+          duration: "December 2018 - April 2019",
+          location: "Ahmedabad, Gujarat, India",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "During my internship as an Android developer, I had the opportunity to work on building full-stack applications for our clients. My primary responsibilities included managing the backend using PHP and ensuring smooth database operations in MySQL. One of the notable projects I worked on was the development of a custom cuisine app, designed to streamline the process of placing catering orders. Throughout the internship, I gained valuable hands-on experience in Android development and honed my skills in backend management and database integration, contributing to the successful delivery of user-friendly and efficient mobile applications.",
           color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
         },
       ],
     },
@@ -671,7 +703,7 @@ export {
   seo,
   greeting,
   socialMediaLinks,
-  skills,
+  skillList,
   competitiveSites,
   degrees,
   certifications,
