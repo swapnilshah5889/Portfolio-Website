@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Swapnil Shah Portfolio",
     type: "website",
-    url: "",
+    url: "https://swapnilshah5889.github.io/",
   },
 };
 
@@ -31,15 +31,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/swapnilshah5889",
@@ -440,112 +431,87 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+      title: "Problem Solving",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/fefff6d24caa",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Python Specialization",
+      subtitle: "- University of Michigan",
+      logo_path: "umich.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/T8NQN2398DT4",
+      alt_name: "University of Michigan",
+      color_code: "#121849",
+    },
+    {
+      title: "Java",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/52b9310d1748",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
+    },
+    {
+      title: "React",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/e58b29d77b6c",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
+    },
+    {
+      title: "Tensorflow",
+      subtitle: "- DeepLearning.ai",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://www.coursera.org/account/accomplishments/verify/WM34JQLR3WSB",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      title: "Javascript",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/7844b4bda21a",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
+    },
+    {
+      title: "Python",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/546dd96316d1",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
     },
     {
       title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      subtitle: "- University of Michigan",
+      logo_path: "umich.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://www.coursera.org/account/accomplishments/verify/87JTGQE8RV6J",
+      alt_name: "University of Michigan",
+      color_code: "#121849",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+      title: "REST API",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/1daf2ec733dd",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+      title: "SQL",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/313f01aa002a",
+      alt_name: "Hackerrank",
+      color_code: "#0d141e",
     },
   ],
 };
@@ -609,7 +575,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "As a versatile developer, I specialize in creating a wide range of projects, including user-centric web applications, mobile applications for Android, and full-stack solutions. With expertise in technologies such as React, JavaScript, Node.js, Express, and MongoDB, I am dedicated to delivering seamless and innovative applications that prioritize user experience and performance. My projects encompass diverse functionalities, from interactive web interfaces to intuitive mobile apps, showcasing my commitment to crafting impactful and visually appealing solutions across different platforms.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -621,80 +587,16 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
+  data: [],
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "swapnil.jpg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
   },
 };
 

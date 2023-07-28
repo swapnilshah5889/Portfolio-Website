@@ -33,9 +33,17 @@
 }
 
 .contact-heading-img-div {
+  padding-top: 10px;
+  padding-bottom: 10%;
+  padding-right: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  padding: 10%;
 }
 
 .blog-heading-img-div {
@@ -133,6 +141,10 @@
     margin-top: 60px;
   }
 
+  .contact-heading-img-div {
+    padding-right: 0px;
+  }
+
   .blog-heading-text {
     font-size: 50px;
     margin-top: 40px;
@@ -140,6 +152,9 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div {
+    padding-right: 0px;
+  }
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;

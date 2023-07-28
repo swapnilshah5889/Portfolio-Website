@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
+      "id": "1",
+      "name": "Portfolio Website",
+      "createdAt": "July 2023",
+      "url": "https://github.com/swapnilshah5889/Portfolio-Website",
+      "description": "My portfolio website, built with React, showcases my skills and projects as a developer. With a clean and modern design, it offers a seamless user experience, allowing visitors to easily explore my full-stack projects, mobile apps, and other software endeavors. The website reflects my commitment to impactful and visually appealing web development.",
+      "isFork": true,
       "languages": [
         {
           "name": "HTML",
@@ -19,6 +19,10 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "simple-icons:react"
         },
         {
           "name": "Dockerfile",
@@ -27,88 +31,176 @@
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "2",
+      "name": "Mobihealth Receptionist",
+      "createdAt": "November 2016",
+      "url": "https://play.google.com/store/apps/details?id=fluvina.com.mobireceptionist",
+      "description": "Revamped receptionist application with a new design, modern APIs, and additional features for faster performance and better user experience. Added dynamic pages, stats, and graphs for enhanced data visualization. The result is an optimized and cutting-edge tool for streamlined reception management.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Android",
+          "iconifyClass": "devicon:android"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "devicon:java-wordmark"
+        },
+        {
+          "name": "Gradle",
+          "iconifyClass": "skill-icons:gradle-dark"
+        },
+        {
+          "name": "XML",
+          "iconifyClass": "mdi:file-xml-box"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "skill-icons:sqlite"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "3",
+      "name": "Child Vaccine Parenting lulaby",
+      "createdAt": "April 2020",
+      "url": "https://play.google.com/store/apps/details?id=fluvina.cocoo.childcare",
+      "description": "Completely revamped the Child Vaccine Parenting Lulaby application, enhancing its functionality with a new lullaby feature. Implemented important features such as play in the background, repeat, and auto turn-off after a few minutes, providing an optimized and user-friendly experience. The addition of these features elevated the application, making it a valuable tool for parents in managing their child's vaccine schedule while offering soothing lullabies for a calming experience.",
       "isFork": false,
       "languages": [
+        {
+          "name": "Android",
+          "iconifyClass": "devicon:android"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "devicon:java-wordmark"
+        },
+        {
+          "name": "Gradle",
+          "iconifyClass": "skill-icons:gradle-dark"
+        },
+        {
+          "name": "XML",
+          "iconifyClass": "mdi:file-xml-box"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "skill-icons:sqlite"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Mobihealth Doctor",
+      "createdAt": "November 2016",
+      "url": "https://play.google.com/store/apps/details?id=com.fluvina.mobihealth&pli=1",
+      "description": "Successfully integrated Agora SDK for telemedicine, enabling seamless video consultations. Additionally, I implemented a digital prescription module, allowing doctors to provide prescriptions directly from their phones. The app's design was revamped to optimize performance and provide a better, modern user experience. Notably, I introduced patient relation management features and other enhancements, resulting in a comprehensive and efficient tool for healthcare professionals to manage patient interactions and deliver quality care.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Android",
+          "iconifyClass": "devicon:android"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "devicon:java-wordmark"
+        },
+        {
+          "name": "Gradle",
+          "iconifyClass": "skill-icons:gradle-dark"
+        },
+        {
+          "name": "XML",
+          "iconifyClass": "mdi:file-xml-box"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "skill-icons:sqlite"
+        },
+        {
+          "name": "Agora",
+          "iconifyClass": "simple-icons:agora"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos:google-maps"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chronico - Mobihealth",
+      "createdAt": "November 2016",
+      "url": "https://play.google.com/store/apps/details?id=com.fluvina.mobihealthuser",
+      "description": "In Chronico patient application, I played a pivotal role in implementing a personalized health news feed, enabling daily delivery of relevant articles to users. Additionally, I integrated the Agora Video SDK for seamless telemedicine services and developed a doctor appointment booking module for convenient scheduling. Notably, I designed a dynamic home screen displaying important updates and sections, and incorporated the Google Maps SDK to help patients locate nearby doctors, significantly improving the overall user experience.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Android",
+          "iconifyClass": "devicon:android"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "devicon:java-wordmark"
+        },
+        {
+          "name": "Gradle",
+          "iconifyClass": "skill-icons:gradle-dark"
+        },
+        {
+          "name": "XML",
+          "iconifyClass": "mdi:file-xml-box"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "skill-icons:sqlite"
+        },
+        {
+          "name": "Agora",
+          "iconifyClass": "simple-icons:agora"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos:google-maps"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "React Todo App",
+      "createdAt": "June 2023",
+      "url": "https://github.com/swapnilshah5889/todo-app-react-express",
+      "description": "Created a Todo app using React, Express, Node.js, and MongoDB, offering a seamless user experience for managing tasks day-wise. The app allows users to add, delete, and update their todos, with an option to view all tasks at a glance. Each todo is set to a default pending state, but users can easily check them off to mark them as completed. This application provides a practical and efficient solution for organizing daily tasks and tracking progress.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "ExpressJS",
+          "iconifyClass": "skill-icons:expressjs-dark"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos:nodejs"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "devicon:mongodb-wordmark"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "simple-icons:react"
+        },
         {
           "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "iconifyClass": "simple-icons:html5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Bootstrap",
+          "iconifyClass": "devicon:bootstrap-wordmark"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Firebase",
+          "iconifyClass": "simple-icons:firebase"
         }
       ]
     }
