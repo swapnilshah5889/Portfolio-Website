@@ -15,6 +15,8 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import ProjectLottie from "../../assests/lottie/projects.json";
+import LottieCard from "../../components/LottieCard/LottieCard";
 
 class Projects extends Component {
   render() {
@@ -26,7 +28,8 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                <ProjectsImg theme={theme} />
+                {/* <ProjectsImg theme={theme} /> */}
+                <LottieCard LottieAnimation={ProjectLottie} />
               </div>
               <div className="projects-heading-text-div">
                 <h1

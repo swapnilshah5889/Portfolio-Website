@@ -2,18 +2,16 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 5px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
 }
 
 .gretting-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 5px 10px;
   margin: 0px auto;
 }
 
@@ -23,36 +21,35 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
 }
 
 .greeting-text {
-  margin-top: 80px;
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 50px;
   font-family: "Google Sans Bold";
 }
 
-.greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
-  font-family: "Google Sans Bold Italic";
-}
-
 .greeting-text-p {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .greeting-image-div > * {
   max-width: 100%;
-  height: auto;
+}
+
+.greeting-text-div {
+  display: flex;
 }
 
 /* Media Query */
@@ -84,7 +81,8 @@
     text-align: center;
   }
   .greeting-main {
-    display: block;
+    /* display: block; */
+    flex-direction: column-reverse;
   }
 
   .portfolio-repo-btn-div {

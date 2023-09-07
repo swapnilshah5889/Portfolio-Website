@@ -21,9 +21,8 @@ const seo = {
 const greeting = {
   title: "Swapnil Shah",
   logo_name: "SwapnilShah",
-  nickname: "swapnilshah5889",
   subTitle:
-    "Computer Science Graduate student with 3+ years of software development experience, adept at leading teams in agile environments. Skilled in building user-centric web and mobile applications designed to scale. Fast learner with strong time management, multi-tasking, and troubleshooting abilities, and a full stack development expertise in React, TypeScript, JavaScript, Node.js, Express, Python, Flask, HTML, CSS, and Bootstrap.",
+    "Computer Science Graduate student with 3+ years of software development experience, adept at leading teams in agile environments. Full stack development expertise in React, TypeScript, JavaScript, Node.js, Express, Python, Flask, HTML, CSS, and Bootstrap.",
   resumeLink:
     "https://drive.google.com/file/d/1v8UTTl64Yk0mX0h-ufsYI015-glwF1v5/view?usp=sharing",
   portfolio_repository: "https://github.com/swapnilshah5889",
