@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "Full-Stack Developer with 5+ years of experience in software design, development, and testing. Expertise in Java/J2EE, Spring frameworks, front-end technologies (React, Angular, HTML, CSS, Bootstrap), and cloud services (AWS). Proven ability in project management, leading teams, and agile development. Adept at building scalable web and mobile applications with strong problem-solving, time management, and troubleshooting skills.",
   resumeLink:
-    "https://drive.google.com/file/d/1v8UTTl64Yk0mX0h-ufsYI015-glwF1v5/view?usp=sharing",
+    "https://drive.google.com/file/d/1tsVhZaBkZYobgzNB3Azy8akMGSs55IkQ/view?usp=sharing",
   portfolio_repository: "https://github.com/swapnilshah5889",
   githubProfile: "https://github.com/swapnilshah5889",
 };
