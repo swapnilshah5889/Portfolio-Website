@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Swapnil's Portfolio",
   description:
-    "Computer Science Graduate student with 3+ years of experience in software development including project management, leading team, and agile development of software. Ability to build user-centric web applications, mobile applications, and more designed to scale leveraging my problem-solving skills. A fast learner with strong time management, multi-tasking, and troubleshooting skills with an analytical mindset.",
+    "Full-Stack Developer with 5+ years of experience in software design, development, and testing. Expertise in Java/J2EE, Spring frameworks, front-end technologies (React, Angular, HTML, CSS, Bootstrap), and cloud services (AWS). Proven ability in project management, leading teams, and agile development. Adept at building scalable web and mobile applications with strong problem-solving, time management, and troubleshooting skills.",
   og: {
     title: "Swapnil Shah Portfolio",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   title: "Swapnil Shah",
   logo_name: "SwapnilShah",
   subTitle:
-    "Computer Science Graduate student with 3+ years of software development experience, adept at leading teams in agile environments. Full stack development expertise in React, TypeScript, JavaScript, Node.js, Express, Python, Flask, HTML, CSS, and Bootstrap.",
+    "Full-Stack Developer with 5+ years of experience in software design, development, and testing. Expertise in Java/J2EE, Spring frameworks, front-end technologies (React, Angular, HTML, CSS, Bootstrap), and cloud services (AWS). Proven ability in project management, leading teams, and agile development. Adept at building scalable web and mobile applications with strong problem-solving, time management, and troubleshooting skills.",
   resumeLink:
     "https://drive.google.com/file/d/1v8UTTl64Yk0mX0h-ufsYI015-glwF1v5/view?usp=sharing",
   portfolio_repository: "https://github.com/swapnilshah5889",
@@ -76,11 +76,26 @@ const skillList = [
         title: "Full Stack Development",
         fileName: "FullStackImg",
         skills: [
-          "⚡ Proficient in building interactive and responsive web applications using React, TypeScript, JavaScript, HTML, CSS, and Bootstrap for a seamless user experience.",
-          "⚡ Experienced in developing robust back-end systems with Node.js, Express, Python, and Flask to handle data and API integration.",
-          "⚡ Skilled in designing and implementing full-stack solutions, utilizing various databases and cloud platforms, while prioritizing user-friendly and visually appealing interfaces.",
+          "⚡ Proficient in full-stack development with 5+ years of experience in Java/J2EE, Spring frameworks (Spring Boot, Spring Security, etc.), and front-end technologies (React, Angular, HTML, CSS, Bootstrap).",
+          "⚡ Skilled in developing and testing robust back-end systems using Node.js, Express, Python, Flask, and using testing frameworks like Jasmine, Karma, Mocha, and Chai.",
+          "⚡ Experienced in cloud services (AWS), deploying Microservices with Docker, and managing databases such as Oracle, DB2, MySQL, PL/SQL, and MS SQL Server.",
         ],
         softwareSkills: [
+          {
+            skillName: "Spring",
+            fontAwesomeClassname: "devicon:spring",
+            style: {
+              backgroundColor: "#00000000",
+            },
+          },
+          {
+            skillName: "Spring Boot",
+            fontAwesomeClassname: "simple-icons:springboot",
+            style: {
+              backgroundColor: "#00000000",
+              color: "#6cb33e",
+            },
+          },
           {
             skillName: "JavaScript",
             fontAwesomeClassname: "simple-icons:javascript",
@@ -177,6 +192,20 @@ const skillList = [
           {
             skillName: "CSS3",
             fontAwesomeClassname: "fa-css3",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "Prisma",
+            fontAwesomeClassname: "skill-icons:prisma",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "Docker",
+            fontAwesomeClassname: "skill-icons:docker",
             style: {
               color: "#1572B6",
             },
@@ -399,6 +428,20 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: "New Jersey Institute of Technology",
+      subtitle: "M.S. in Computer Science",
+      logo_path: "njit.png",
+      alt_name: "New Jersey Institute of Technology",
+      duration: "2022 - 2024",
+      descriptions: [
+        "⚡ Maintained an exceptional GPA of 3.8, achieving Grade A in all core computer science subjects, including Operating Systems, Database Management, Data Structures and Algorithms, and Advanced Database System Design.",
+        "⚡ Served as a Teaching Assistant for Operating Systems and Data Structures and Algorithms, providing support to professors and assisting students in understanding complex concepts.",
+        "⚡ Expanded my knowledge beyond computer science by enrolling in additional subjects such as Cloud Computing, System Design, Network Management, and Security.",
+        "⚡ Utilized online platforms for self-learning, such as MOOCs (Massive Open Online Courses), to gain expertise in emerging technologies like React and Next.js, as well as important software development concepts like low-level design and high-level design of applications. This comprehensive learning approach ensures up-to-date knowledge and proficiency in both the latest technologies and the essential architectural principles of software development.",
+      ],
+      website_link: "https://www.njit.edu/",
+    },
+    {
       title: "Dharmsinh Desai Institute of Technology",
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "dharmish-college-logo.png",
@@ -410,19 +453,6 @@ const degrees = {
         "⚡ Gained hands-on experience through an internship at a leading IT service company. Contributed to the development of a full stack Android application focused on food catering. Involved in the design process, API building, database management, and Android application development.",
       ],
       website_link: "https://www.ddu.ac.in/",
-    },
-    {
-      title: "New Jersey Institute of Technology",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "njit.png",
-      alt_name: "New Jersey Institute of Technology",
-      duration: "2022 - 2024",
-      descriptions: [
-        "⚡ Maintained an exceptional GPA of 3.75, achieving Grade A in all core computer science subjects, including Operating Systems, Database Management, Data Structures and Algorithms, and Advanced Database System Design.",
-        "⚡ Expanded my knowledge beyond computer science by enrolling in additional subjects such as Cloud Computing, System Design, Network Management, and Security.",
-        "⚡ Utilized online platforms for self-learning, such as MOOCs (Massive Open Online Courses), to gain expertise in emerging technologies like React and Next.js, as well as important software development concepts like low-level design and high-level design of applications. This comprehensive learning approach ensures up-to-date knowledge and proficiency in both the latest technologies and the essential architectural principles of software development.",
-      ],
-      website_link: "https://www.njit.edu/",
     },
   ],
 };
@@ -528,45 +558,56 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Full Stack Developer",
+          company: "Metlife, USA",
+          company_url: "https://www.metlife.com/",
+          logo_path: "metlife.webp",
+          duration: "January 2024 - Present",
+          location: "USA",
+          description:
+            "I contributed to all phases of the Software Development Life Cycle (SDLC), utilizing agile methodology (SCRUM) for efficient application development. Designed responsive User Interfaces using HTML5, CSS3, jQuery, JavaScript, Ajax, Angular.JS, Node.JS, and XML. Simplified application complexities with JSP Tag libraries and JavaScript. Architected critical clearing systems with Spring, REST, SQL, Hibernate, MyBatis, and MQ for global markets, ensuring scalability and robustness. Implemented secure applications using Spring MVC, Spring Boot, and Spring Security, leveraging AWS Lambdas for file transfers. Conducted performance analysis and optimization to enhance system scalability and efficiency. Deployed Spring web services on AWS cloud using Docker Swarm, and performed MongoDB CRUD operations. Additionally, built applications using React.JS and managed version control using GitHub bash and Terminal commands.",
+          color: "#0879bf",
+        },
+        {
           title: "Software Developer",
           company: "Fluvina Technologies Pvt. Ltd.",
           company_url: "http://www.fluvina.com/",
           logo_path: "fluvina-technologies.jpeg",
-          duration: "December 2019 - August 2022",
+          duration: "May 2019 - August 2022",
           location: "Ahmedabad, Gujarat, India",
           description:
-            "During my tenure at Fluvina Technologies, a dynamic product-based startup, I gained valuable insights into an evolving company and led multiple end-to-end projects as a software developer. Notable achievements include spearheading the development of the ZeroSugar mobile app for diabetic patients, revamping the user flow of the Mobihealth suite, and conducting a machine learning project for health risk prediction. With expertise in software development, project leadership, and problem-solving, I am well-prepared to excel in SDE roles and eager to contribute to organizational success.",
+            "I led the development of robust data extraction and transformation scripts for government-authorized APIs, achieving an 80% reduction in processing time for large datasets and enabling data-driven decision-making. Leveraged Java8 features like Lambda expressions and resource handling for efficient code development. Engineered backend infrastructure with Express, PostgreSQL, and AWS EC2, deploying Redis cache via Jenkins CI/CD to enhance system stability and reduce downtime by 25%. Spearheaded Mobihealth, a comprehensive mobile app suite for healthcare professionals and patients. Implemented rigorous unit testing with Spring Boot Test, Mockito, and JUnit, ensuring high code quality. Developed microservices using Spring Boot and Spring Cloud, optimized Java performance, and debugged memory issues. Managed CI/CD pipelines with Jenkins, automating build and deployment processes, and designed user-controlled personalized interfaces for enhanced user satisfaction. Led software development for MAHI, an IoT-based Pill Dispensing Device, and created a Patient Relation Management module for diabetic patient interactions, integrating machine learning for risk prediction.",
           color: "#0879bf",
         },
         {
-          title: "Android Developer",
-          company: "Techmicra",
-          company_url: "https://techmicra.co.in/",
-          logo_path: "techmicra.jpeg",
-          duration: "May 2019 - November 2019",
+          title: "Full Stack Developer",
+          company: "Nevina Infotech Pvt. Ltd",
+          company_url: "https://www.nevinainfotech.com/",
+          logo_path: "nevinainfotech_com_logo.jpeg",
+          duration: "January 2018 - April 2019",
           location: "Ahmedabad, Gujarat, India",
           description:
-            "As an Android developer with full-stack responsibilities, I planned and developed complete applications, including database structure, frontend, backend in Android, and API structure. Utilizing Android Studio, I built Android applications with Java for the backend and XML for the frontend. Additionally, I created Restful APIs using PHP and managed databases in MySQL. I excelled in debugging applications and effectively coordinated tasks with other teams to ensure seamless application performance.",
-          color: "#9b1578",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Android Developer",
-          company: "Techmicra",
-          company_url: "https://techmicra.co.in/",
-          logo_path: "techmicra.jpeg",
-          duration: "December 2018 - April 2019",
-          location: "Ahmedabad, Gujarat, India",
-          description:
-            "During my internship as an Android developer, I had the opportunity to work on building full-stack applications for our clients. My primary responsibilities included managing the backend using PHP and ensuring smooth database operations in MySQL. One of the notable projects I worked on was the development of a custom cuisine app, designed to streamline the process of placing catering orders. Throughout the internship, I gained valuable hands-on experience in Android development and honed my skills in backend management and database integration, contributing to the successful delivery of user-friendly and efficient mobile applications.",
+            "During my professional tenure, I specialized in developing robust microservices and APIs using Spring Boot, leveraging Apache Kafka for efficient messaging between services. I utilized Spring Core's IOC and AOP features alongside Spring JDBC for seamless application development, focusing on high-concurrency environments with multi-threaded server-side components to ensure optimal responsiveness and reliability. My experience includes implementing microservices in a serverless architecture using Node.js and Lambda functions, and integrating disparate pages into cohesive single-page applications with Angular and TypeScript. I conducted thorough unit testing, debugging, and performance profiling to deliver resilient, defect-free code. Additionally, I developed web pages utilizing HTML, CSS, jQuery, JavaScript, and frameworks like Angular and React.js, and deployed server-side modules and client-side components on AWS's Compute Cloud.",
           color: "#000000",
         },
       ],
     },
+    // {
+    //   title: "Internships",
+    //   experiences: [
+    //     {
+    //       title: "Android Developer",
+    //       company: "Techmicra",
+    //       company_url: "https://techmicra.co.in/",
+    //       logo_path: "techmicra.jpeg",
+    //       duration: "May 2019 - November 2019",
+    //       location: "Ahmedabad, Gujarat, India",
+    //       description:
+    //         "As an Android developer with full-stack responsibilities, I planned and developed complete applications, including database structure, frontend, backend in Android, and API structure. Utilizing Android Studio, I built Android applications with Java for the backend and XML for the frontend. Additionally, I created Restful APIs using PHP and managed databases in MySQL. I excelled in debugging applications and effectively coordinated tasks with other teams to ensure seamless application performance.",
+    //       color: "#9b1578",
+    //     },
+    //   ],
+    // },
   ],
 };
 
